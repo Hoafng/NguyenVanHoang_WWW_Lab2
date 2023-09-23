@@ -1,11 +1,11 @@
-package resources;
+package backend.resources;
 
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.Response;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import models.Employee;
-import services.EmployeeServices;
+import backend.models.Employee;
+import backend.services.EmployeeServices;
 
 import java.util.List;
 import java.util.Optional;

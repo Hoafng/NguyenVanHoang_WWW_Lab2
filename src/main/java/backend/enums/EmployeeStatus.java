@@ -1,4 +1,4 @@
-package enums;
+package backend.enums;
 
 public enum EmployeeStatus {
     ACTIVE(1),

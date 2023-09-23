@@ -1,4 +1,4 @@
-package enums;
+package backend.enums;
 
 public enum ProductStatus {
     ACTIVE(1),//đang kinh doanh

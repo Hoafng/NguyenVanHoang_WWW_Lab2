@@ -1,7 +1,7 @@
-package models;
+package backend.models;
 
 import jakarta.persistence.*;
-import enums.ProductStatus;
+import backend.enums.ProductStatus;
 
 import java.util.ArrayList;
 import java.util.List;

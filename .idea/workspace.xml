@@ -4,36 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70a44f05-493b-4928-b762-b156e1c1a72f" name="Changes" comment="create project">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/configs/RootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/EmployeeStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/ProductStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/ProductImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/ProductPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repositories/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repositories/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/EmployeeResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/EmployeeServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/week2/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/week2/HelloResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    <list default="true" id="70a44f05-493b-4928-b762-b156e1c1a72f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/frontend/controllers/ServletController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/configs/RootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/configs/RootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/EmployeeStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/enums/EmployeeStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/ProductStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/enums/ProductStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/models/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/models/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/ProductImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/models/ProductImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/ProductPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/models/ProductPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositories/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/repositories/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/EmployeeResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/resources/EmployeeResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/EmployeeServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/services/EmployeeServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +34,13 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -52,6 +48,27 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Hoafng"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2a1010f3-1f18-42d4-a308-e06563834547" />
+        <option name="url" value="https://github.com/Hoafng/NguyenVanHoang_week_02.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
@@ -70,7 +87,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "T:/NguyenVanHoang/NguyenVanHoang_www_02/week2/src/main/java/services",
+    "last_opened_file_path": "T:/NguyenVanHoang/NguyenVanHoang_www_02/week2/src/main/java/backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,11 +97,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="T:\NguyenVanHoang\NguyenVanHoang_www_02\week2\src\main\java\backend" />
       <recent name="T:\NguyenVanHoang\NguyenVanHoang_www_02\week2\src\main\java\services" />
       <recent name="T:\NguyenVanHoang\NguyenVanHoang_www_02\week2\src\main\java\resources" />
       <recent name="T:\NguyenVanHoang\NguyenVanHoang_www_02\week2\src\main\java\repositories" />
       <recent name="T:\NguyenVanHoang\NguyenVanHoang_www_02\week2\src\main\java\models" />
-      <recent name="T:\NguyenVanHoang\NguyenVanHoang_www_02\week2\src\main\java\enums" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="T:\NguyenVanHoang\NguyenVanHoang_www_02\week2\src\main\java\backend" />
     </key>
   </component>
   <component name="RunManager">
@@ -96,12 +116,29 @@
           </settings>
         </artifact>
       </deployment>
-      <server-settings />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="3978b3d3-ca7b-4e48-a62e-a2e6b53ea0ce" />
+      </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
@@ -118,8 +155,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695448837083</updated>
-      <workItem from="1695448838095" duration="1335000" />
+      <workItem from="1695448838095" duration="3348000" />
     </task>
+    <task id="LOCAL-00001" summary="create project">
+      <option name="closed" value="true" />
+      <created>1695450269052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695450269052</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

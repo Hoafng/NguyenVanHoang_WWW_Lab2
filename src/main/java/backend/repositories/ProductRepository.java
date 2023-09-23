@@ -1,11 +1,11 @@
-package repositories;
+package backend.repositories;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import models.Product;
+import backend.models.Product;
 
 public class ProductRepository {
     //    @PersistenceContext

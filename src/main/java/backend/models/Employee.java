@@ -1,8 +1,8 @@
-package models;
+package backend.models;
 
 import jakarta.json.bind.annotation.JsonbDateFormat;
 import jakarta.persistence.*;
-import enums.EmployeeStatus;
+import backend.enums.EmployeeStatus;
 
 import java.time.LocalDateTime;
 import java.util.List;

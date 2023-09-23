@@ -1,4 +1,4 @@
-package repositories;
+package backend.repositories;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
@@ -6,8 +6,8 @@ import jakarta.persistence.Persistence;
 import jakarta.persistence.TypedQuery;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import enums.EmployeeStatus;
-import models.Employee;
+import backend.enums.EmployeeStatus;
+import backend.models.Employee;
 
 import java.util.List;
 import java.util.Optional;
