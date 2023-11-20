@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <persistence xmlns="https://jakarta.ee/xml/ns/persistence"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence
-             https://jakarta.ee/xml/ns/persistence/persistence_3_1.xsd"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
              version="3.0">
-    <persistence-unit name="lab_week_2" transaction-type="RESOURCE_LOCAL">
+<<<<<<< HEAD
+    <persistence-unit name="default">
+
+=======
+    <persistence-unit name="week2" transaction-type="RESOURCE_LOCAL">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
         <properties>
@@ -12,11 +15,9 @@
             <property name="jakarta.persistence.jdbc.url"
                       value="jdbc:mariadb://localhost:3306/mydb?createDatabaseIfNotExist=true"/>
             <property name="jakarta.persistence.jdbc.user" value="root"/>
-            <property name="jakarta.persistence.jdbc.password" value="password"/>
+            <property name="jakarta.persistence.jdbc.password" value="sapassword"/>
             <property name="jakarta.persistence.schema-generation.database.action" value="create"/>
-            <!--show query-->
-            <property name="eclipselink.logging.level.sql" value="FINE"/>
-            <property name="eclipselink.logging.parameters" value="true"/>
         </properties>
+>>>>>>> 252a992 (update)
     </persistence-unit>
 </persistence>

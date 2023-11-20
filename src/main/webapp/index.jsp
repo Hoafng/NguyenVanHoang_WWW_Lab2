@@ -1,39 +1,20 @@
-<%@ page import="vn.edu.iuh.fit.repositories.EmployeeRepository" %>
-<%@ page import="vn.edu.iuh.fit.models.Employee" %>
-<%@ page import="java.time.LocalDateTime" %>
-<%@ page import="vn.edu.iuh.fit.enums.EmployeeStatus" %>
-<%@ page import="vn.edu.iuh.fit.repositories.ProductRepository" %>
-<%@ page import="vn.edu.iuh.fit.models.Product" %>
-<%@ page import="vn.edu.iuh.fit.enums.ProductStatus" %>
-<%@ page import="vn.edu.iuh.fit.models.ProductImage" %>
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<!DOCTYPE html>
+<%--
+  Created by IntelliJ IDEA.
+  User: Student
+  Date: 9/23/2023
+  Time: 7:14 AM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Index</title>
 </head>
 <body>
-<%
-    EmployeeRepository repository = new EmployeeRepository();
-    Employee emp = new Employee("teo", LocalDateTime.now(), "teo" + System.currentTimeMillis() + "@mail.com",
-            "2349235", "12 NVB", EmployeeStatus.ACTIVE);
-    repository.insertEmp(emp);
-
-    out.print(emp);
-
-    ProductRepository productRepository = new ProductRepository();
-    Product product = new Product("xoai", "xoai ngot", "kg", "ba dua", ProductStatus.ACTIVE);
-
-    ProductImage productImage = new ProductImage();
-    productImage.setAlternative("xxx xxx");
-    productImage.setPath("/images/zzz.jpg");
-    productImage.setProduct(product);
-
-    product.getProductImageList().add(productImage);
-
-    productRepository.insert(product);
-
-    out.print("OK");
-%>
+    <a href="insertEmployee.jsp">Insert new Employee</a> <br/>
+    <a href="controls?action=cust_list">Customer listing</a>
+    <a href="products.jsp">Product listing</a>
+<br/>
+    ...
 </body>
 </html>

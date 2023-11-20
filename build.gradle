@@ -17,7 +17,7 @@ ext {
 sourceCompatibility = '11'
 targetCompatibility = '11'
 
-tasks.withType(JavaCompile).configureEach {
+tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 
@@ -37,14 +37,22 @@ dependencies {
     implementation('org.glassfish.jersey.media:jersey-media-json-jackson:3.1.2')
     implementation('org.glassfish.jersey.inject:jersey-cdi2-se:3.1.2')
     implementation('org.jboss.weld.se:weld-se-core:5.1.0.Final')
+
     //for convert type in rest
     implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.2'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.15.2'
+    implementation 'com.fasterxml.jackson.module:jackson-module-parameter-names:2.15.2'
 
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.13.0'
+
+
+    implementation 'jakarta.json:jakarta.json-api:2.1.2'
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 }
 
+
 test {
-    useJUnitPlatform()
-}
+    useJUnitPlatform()}
