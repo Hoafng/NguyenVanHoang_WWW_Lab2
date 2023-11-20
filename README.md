@@ -13,13 +13,13 @@ Web:
 ## CRUD Product
 
 - Get All
-![image](https://github.com/PhamBaBac/www_lap02_week_02_restapi/assets/99248518/82b2a645-641c-4497-8371-9268a0e732e6)
+![image](https://github.com/Hoafng/NguyenVanHoang_week_02/blob/main/demo/R%20product.png)
 - Insert
-![image](https://github.com/PhamBaBac/www_lap02_week_02_restapi/assets/99248518/5f59b554-9e60-4457-8c43-16a880d9b1cf)
+![image](https://github.com/Hoafng/NguyenVanHoang_week_02/blob/main/demo/C%20product.png)
 - Update
-![image](https://github.com/PhamBaBac/www_lap02_week_02_restapi/assets/99248518/beec2b6c-1a48-41c2-a2f2-fb018173c9b1)
+![image](https://github.com/Hoafng/NguyenVanHoang_week_02/blob/main/demo/U%20Product.png)
 - Delete
-![image](https://github.com/PhamBaBac/www_lap02_week_02_restapi/assets/99248518/4b273c82-2a01-4afd-b716-7e10134fe18f)
+![image](https://github.com/Hoafng/NguyenVanHoang_week_02/blob/main/demo/D%20product.png)
 
 ## Thống kê order theo ngày, theo khoảng thời gian
 ![image](https://github.com/PhamBaBac/www_lap02_week_02_restapi/assets/99248518/d359ccde-8d12-449f-a301-30f2d5d193c1)
