@@ -5,7 +5,7 @@
 <%@ page import="vn.edu.iuh.backend.models.Product" %>
 <%@ page import="vn.edu.iuh.backend.enums.ProductStatus" %>
 <%@ page import="vn.edu.iuh.backend.models.ProductImage" %>
-<%@ page import="java.time.LocalDate" %>
+<%@ page import="java.time.LocalDateTime" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
@@ -15,7 +15,7 @@
 <body>
 <%
     EmployeeRepository repository = new EmployeeRepository();
-    Employee emp = new Employee("teo", LocalDate.now(), "teo" + System.currentTimeMillis() + "@mail.com",
+    Employee emp = new Employee("teo", LocalDateTime.now(), "teo" + System.currentTimeMillis() + "@mail.com",
             "2349235", "12 NVB", EmployeeStatus.ACTIVE);
     repository.insertEmp(emp);
 

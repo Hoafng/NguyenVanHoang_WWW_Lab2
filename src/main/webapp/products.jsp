@@ -1,5 +1,5 @@
-<%@ page import="vn.edu.iuh.fit.week2.backend.services.ProductServices" %>
-<%@ page import="vn.edu.iuh.fit.week2.backend.models.Product" %>
+<%@ page import="vn.edu.iuh.backend.services.ProductServices" %>
+<%@ page import="vn.edu.iuh.backend.models.Product" %>
 <%@ page import="java.util.List" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
@@ -39,5 +39,7 @@
 
         <%}%>
     </table>
+    <br/>
+    <a href="products.jsp">Insert product</a><br/>
 </body>
 </html>

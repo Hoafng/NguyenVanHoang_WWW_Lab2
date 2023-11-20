@@ -1,5 +1,5 @@
-<%@ page import="vn.edu.iuh.fit.week2.backend.services.CustomerServices" %>
-<%@ page import="vn.edu.iuh.fit.week2.backend.models.Customer" %>
+<%@ page import="vn.edu.iuh.backend.services.CustomerServices" %>
+<%@ page import="vn.edu.iuh.backend.models.Customer" %>
 <%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: Student
